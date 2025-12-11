@@ -1,0 +1,5 @@
+az deployment group create \
+  --resource-group AAX-DEV-JPEAST-FUSOHP-RG \
+  --template-file ./azuredeploy.json \
+  --parameters @./params.json
+

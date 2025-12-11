@@ -1,0 +1,5 @@
+az deployment group validate \
+  --resource-group <RG> \
+  --template-file ./azuredeploy.json \
+  --parameters @./params.json
+
